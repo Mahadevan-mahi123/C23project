@@ -65,6 +65,10 @@ function draw() {
 		helicopterSprite.x=helicopterSprite.x-20
 	}
 	
+		if(keyDown(RIGHT_ARROW)){
+		helicopterSprite.x=helicopterSprite.x+20
+	}
+	
 	box1.display();
 	box2.display();
 	box3.display();
